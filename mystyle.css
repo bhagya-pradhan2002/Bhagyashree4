@@ -1,0 +1,108 @@
+.navbar{
+    align-items: right;
+    text-align: right ;
+}
+nav{
+    border: 2px solid black;
+    margin: 2PX;
+}
+#logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* #carouselExampleFade img{
+  width: 100%;
+height: -50%;
+}
+/* .carousel-item{
+    width: 100%;
+    height: -50%;
+} */
+/* .d-block > img{
+    width: 100%;
+    height: -50%;
+/* } 
+.carousel-inner {
+    width: 100%;
+    height: -40%;
+}  */
+#myimage{
+    width: 400px;
+    margin-left: -40%;
+    transform: scale(1);
+    transition: transform 500ms ease-in-out;
+
+}
+#myimage:hover{
+    transform: scale(1.2);
+}
+.container {
+    border: 3px solid black;
+    margin-top: 2%;
+}
+.img{
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.row{
+    margin-top: 19%;
+    
+}
+
+#carouselExampleFade {
+    width: 100%;
+    height: 50%;
+    margin-top:  8%;
+    background-image: cover;
+}
+
+#carouselExampleFade img {
+    height: 700px;
+}
+.col-4 img{
+    width: 20%;
+}
+.footer{
+    text-align: center;
+    align-items: center;
+   margin: 10%;
+}
+#copyright{
+    text-align: center;
+    align-items: center;
+}
+.end{
+    margin-top: 5%;
+}
+.col h3{
+    align-items: center;
+    text-align: center;
+    justify-content:center ;
+}
+.col img{
+    align-items: center;
+    text-align: center;
+  
+}
+#gallery{
+    transform: scale(1);
+    transition: transfoprm 500ms ease-in-out;
+    margin-top: 5%;
+}
+#gallery:hover{
+transform: scale(1.2);
+}
+
+.col-4{
+    font: bolder;
+    font-size: x-large;
+}
+#aboutme{
+    margin: 5%;
+    margin-left: 20%;
+    
+ 
+}
